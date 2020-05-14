@@ -10,7 +10,22 @@
 <body>
     <h1>Entrainement git et github</h1>
     <p>changer la couleur de fond avec ce bouton </p>
-    <p>Problème de push à résoudre</p>
+    <p>Problème de push à résoudre :   
+        
+$ git remote -v
+origin  https://github.com/Develoqer/git-training.git (fetch)
+origin  https://github.com/Develoqer/git-training.git (push)
+
+
+        
+        $ git push -u origin master
+        To https://github.com/Develoqer/git-training.git
+         ! [rejected]        master -> master (non-fast-forward)
+        error: failed to push some refs to 'https://github.com/Develoqer/git-training.git'
+        hint: Updates were rejected because the tip of your current branch is behind
+        hint: its remote counterpart. Integrate the remote changes (e.g.
+        hint: 'git pull ...') before pushing again.
+        hint: See the 'Note about fast-forwards' in 'git push --help' for details.</p>
     
     <input type="button" value="change couleur" id="backcolor">
 
